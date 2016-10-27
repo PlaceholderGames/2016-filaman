@@ -1,0 +1,988 @@
+﻿Log file open, 10/27/16 16:41:47
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1756936220) SRandInit(-1756936220).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.066141
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3142249
+LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3142249
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.27-15.41.47:313][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.27-15.41.47:313][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.27-15.41.47:327][  0]LogInit: Computer: TRJ208-11
+[2016.10.27-15.41.47:327][  0]LogInit: User: 15012840
+[2016.10.27-15.41.47:327][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.27-15.41.47:327][  0]LogInit: High frequency timer resolution =3.507666 MHz
+[2016.10.27-15.41.47:327][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2016.10.27-15.41.47:327][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.27-15.41.47:327][  0]LogMemory: Process Physical Memory: 257.66 MB used, 257.66 MB peak
+[2016.10.27-15.41.47:327][  0]LogMemory: Process Virtual Memory: 261.57 MB used, 261.57 MB peak
+[2016.10.27-15.41.47:327][  0]LogMemory: Physical Memory: 5554.43 MB used, 32608.73 MB total
+[2016.10.27-15.41.47:327][  0]LogMemory: Virtual Memory: 591.96 MB used, 8388608.00 MB total
+[2016.10.27-15.41.47:355][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.10.27-15.41.47:783][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.27-15.41.47:803][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.10.27-15.41.47:803][  0]LogD3D11RHI:       4007/0/16048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.27-15.41.47:810][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.10.27-15.41.47:810][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.10.27-15.41.47:810][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.27-15.41.47:814][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.27-15.41.47:814][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.27-15.41.47:814][  0]LogWindows: EnumDisplayDevices:
+[2016.10.27-15.41.47:814][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2016.10.27-15.41.47:814][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.10.27-15.41.47:814][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.10.27-15.41.47:814][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.10.27-15.41.47:814][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.10.27-15.41.47:814][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.10.27-15.41.47:814][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.10.27-15.41.47:814][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
+[2016.10.27-15.41.47:814][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.10.27-15.41.47:814][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.10.27-15.41.47:814][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.10.27-15.41.47:814][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.10.27-15.41.47:814][  0]LogD3D11RHI:   Driver Version: 372.70 (internal:21.21.13.7270, unified:372.70)
+[2016.10.27-15.41.47:814][  0]LogD3D11RHI:      Driver Date: 8-25-2016
+[2016.10.27-15.41.47:814][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.27-15.41.47:820][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.27-15.41.47:834][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.27-15.41.47:834][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (F:/My Documents/Unreal Projects/filaman/Intermediate/Shaders/WorkingDirectory/4600/).
+[2016.10.27-15.41.47:834][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/15012840/AppData/Local/Temp/UnrealShaderWorkingDir/8088ECFD4A7386BFF37748A2A53D2A8A/'.
+[2016.10.27-15.41.47:834][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.27-15.41.48:803][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.27-15.41.48:812][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.27-15.41.48:821][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.27-15.41.48:831][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.27-15.41.48:839][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.27-15.41.48:847][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.27-15.41.48:855][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.27-15.41.48:863][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.27-15.41.48:870][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.27-15.41.48:878][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.27-15.41.48:886][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.27-15.41.48:901][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.27-15.41.48:901][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.27-15.41.48:902][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.27-15.41.48:922][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.27-15.41.48:929][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.27-15.41.48:937][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.10.27-15.41.48:944][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.27-15.41.48:952][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.27-15.41.48:960][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.27-15.41.48:960][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.27-15.41.49:022][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.27-15.41.49:084][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/15012840/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.27-15.41.49:084][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/15012840/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.10.27-15.41.49:084][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/My Documents/Unreal Projects/filaman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.27-15.41.49:084][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.27-15.41.49:084][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/My Documents/Unreal Projects/filaman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.27-15.41.49:085][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.27-15.41.49:099][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.27-15.41.49:110][  0]LogDerivedDataCache: Using Local data cache path C:/Users/15012840/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.27-15.41.49:277][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.27-15.41.49:279][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.10.27-15.41.49:280][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.27-15.41.49:399][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.27-15.41.49:399][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.27-15.41.49:399][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.27-15.41.49:620][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: myproject, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1117662317
+[2016.10.27-15.41.49:654][  0]LogAssetRegistry: FAssetRegistry took 0.0197 seconds to start up
+[2016.10.27-15.41.49:829][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.171492 seconds
+[2016.10.27-15.41.49:834][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.10.27-15.41.49:834][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.10.27-15.41.49:834][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.27-15.41.49:839][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.27-15.41.50:000][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.27-15.41.50:000][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.27-15.41.50:537][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.10.27-15.41.50:544][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.10.27-15.41.50:560][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.27-15.41.50:560][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-15.41.50:822][  0]SourceControl: Info Source control is disabled
+[2016.10.27-15.41.51:241][  0]SourceControl: Info Source control is disabled
+[2016.10.27-15.41.51:247][  0]SourceControl: Info Source control is disabled
+[2016.10.27-15.41.51:252][  0]SourceControl: Info Source control is disabled
+[2016.10.27-15.41.51:443][  0]LogEngine: Initializing Engine...
+[2016.10.27-15.41.51:444][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.10.27-15.41.51:551][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.10.27-15.41.51:556][  0]LogInit: No audio devices found!
+[2016.10.27-15.41.51:587][  0]LogDerivedDataCache: Saved boot cache 0.03s 76MB C:/Users/15012840/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.27-15.41.51:593][  0]LogInit: Texture streaming: Enabled
+[2016.10.27-15.41.51:609][  0]LogInit: Transaction tracking system initialized
+[2016.10.27-15.41.51:625][  0]BlueprintLog: New page: Editor Load
+[2016.10.27-15.41.51:687][  0]LocalizationService: Info Localization service is disabled
+[2016.10.27-15.41.51:742][  0]LogConsoleResponse:Display: 
+[2016.10.27-15.41.51:832][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.10.27-15.41.51:832][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.27-15.41.51:931][  0]LogFileCache: Scanning file cache for directory 'F:/My Documents/Unreal Projects/filaman/Content/' took 0.04s
+[2016.10.27-15.41.51:931][  0]SourceControl: Info Source control is disabled
+[2016.10.27-15.41.51:931][  0]Cmd: MAP LOAD FILE="F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.27-15.41.51:931][  0]LightingResults: New page: Lighting Build
+[2016.10.27-15.41.51:933][  0]MapCheck: New page: Map Check
+[2016.10.27-15.41.51:933][  0]LightingResults: New page: Lighting Build
+[2016.10.27-15.41.52:540][  0]LogTexture:Display: Building textures: T_Metal_Gold_N (BC5)
+[2016.10.27-15.41.53:031][  0]LogTexture:Display: Building textures: T_Metal_Copper_D (AutoDXT)
+[2016.10.27-15.41.54:911][  0]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2016.10.27-15.41.54:981][  0]LogMaterial: Missing cached shader map for material clear_glass, compiling. 
+[2016.10.27-15.41.55:299][  0]LogTexture:Display: Building textures: T_MacroVariation (AutoDXT)
+[2016.10.27-15.41.57:814][  0]LogMaterial: Missing cached shader map for material M_Metal_Chrome, compiling. 
+[2016.10.27-15.41.57:886][  0]LogMaterial: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2016.10.27-15.41.57:940][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.27-15.41.57:953][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.27-15.41.57:953][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.27-15.41.58:001][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.966ms to complete.
+[2016.10.27-15.41.58:001][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 6.071
+[2016.10.27-15.41.58:118][  0]LogCollectionManager: Loaded 0 collections in 0.003279 seconds
+[2016.10.27-15.41.58:201][  0]LogFileCache: Scanning file cache for directory 'F:/My Documents/Unreal Projects/filaman/Saved/Collections/' took 0.02s
+[2016.10.27-15.41.58:201][  0]LogFileCache: Scanning file cache for directory 'F:/My Documents/Unreal Projects/filaman/Content/Developers/15012840/Collections/' took 0.01s
+[2016.10.27-15.41.58:201][  0]LogFileCache: Scanning file cache for directory 'F:/My Documents/Unreal Projects/filaman/Content/Collections/' took 0.01s
+[2016.10.27-15.41.58:201][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.10.27-15.41.58:214][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2156 classes and 421 folders.
+[2016.10.27-15.41.58:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.27-15.41.58:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.27-15.41.58:220][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2016.10.27-15.41.58:227][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.10.27-15.41.58:270][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.10.27-15.41.58:276][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.10.27-15.41.58:294][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.27-15.41.58:350][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.10.27-15.41.58:351][  0]LogLoad: (Engine Initialization) Total time: 11.82 seconds
+[2016.10.27-15.41.58:351][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2016.10.27-15.41.58:351][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.27-15.41.58:351][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.27-15.41.58:360][  0]LogOcInput: OculusInput pre-init called
+[2016.10.27-15.41.58:378][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-15.41.58:379][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Content/', and we were unable to create a new request.
+[2016.10.27-15.41.58:379][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-15.41.58:379][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Content/Developers/15012840/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-15.41.58:379][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-15.41.58:380][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.27-15.41.58:541][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.10.27-15.41.58:671][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-15.41.58:672][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Saved/Collections/', and we were unable to create a new request.
+[2016.10.27-15.41.58:672][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Content/Developers/15012840/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-15.41.58:672][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Content/Developers/15012840/Collections/', and we were unable to create a new request.
+[2016.10.27-15.41.58:672][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-15.41.58:673][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/Unreal Projects/filaman/Content/Collections/', and we were unable to create a new request.
+[2016.10.27-15.41.58:724][  2]LogAssetRegistry: Asset discovery search completed in 9.0899 seconds
+[2016.10.27-15.41.58:724][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.27-15.41.58:724][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2016.10.27-15.42.05:549][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2016.10.27-15.42.07:934][981]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-15.42.07:935][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-15.42.07:939][981]PIE: New page: PIE session: ThirdPersonExampleMap (27 Oct 2016 16:42:07)
+[2016.10.27-15.42.07:939][981]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.27-15.42.07:966][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026699s)
+[2016.10.27-15.42.07:966][981]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.27-15.42.07:967][981]LogPlayLevel: PIE: World Init took: (0.001486s)
+[2016.10.27-15.42.07:967][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.028539s)
+[2016.10.27-15.42.08:047][981]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-15.42.08:055][981]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.27-16.42.08
+[2016.10.27-15.42.08:056][981]LogWorld: Bringing up level for play took: 0.006748
+[2016.10.27-15.42.08:064][981]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2016.10.27-15.42.08:064][981]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-15.42.08:064][981]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-15.42.08:064][981]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-15.42.08:065][981]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-15.42.08:065][981]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.854
+[2016.10.27-15.42.08:065][981]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-15.42.53:504][338]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-15.42.53:554][338]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-15.43.17:756][220]Cmd: MAP LOAD FILE="F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.27-15.43.17:778][220]LightingResults: New page: Lighting Build
+[2016.10.27-15.43.17:778][220]LoadErrors: New page: Loading map: LIGHTBULBMAN_ALPHA_FIRST.umap
+[2016.10.27-15.43.17:782][220]MapCheck: New page: Map Check
+[2016.10.27-15.43.17:782][220]LightingResults: New page: Lighting Build
+[2016.10.27-15.43.17:919][220]LogMaterial: Missing cached shader map for material red_button, compiling. 
+[2016.10.27-15.43.17:964][220]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.10.27-15.43.18:038][220]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.10.27-15.43.18:049][220]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.10.27-15.43.18:056][220]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.10.27-15.43.18:094][220]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.10.27-15.43.18:100][220]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.10.27-15.43.18:107][220]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2016.10.27-15.43.18:128][220]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2016.10.27-15.43.18:130][220]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2016.10.27-15.43.18:450][220]LogTexture:Display: Building textures: T_Brick_Cut_Stone_D (AutoDXT)
+[2016.10.27-15.43.20:966][220]LogTexture:Display: Building textures: T_Brick_Cut_Stone_N (BC5)
+[2016.10.27-15.43.21:605][220]LogTexture:Display: Building textures: T_Perlin_Noise_M (AutoDXT)
+[2016.10.27-15.43.23:682][220]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_D (AutoDXT)
+[2016.10.27-15.43.25:738][220]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_N (BC5)
+[2016.10.27-15.43.26:158][220]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_M (AutoDXT)
+[2016.10.27-15.43.28:220][220]LogTexture:Display: Building textures: T_Wood_Oak_D (AutoDXT)
+[2016.10.27-15.43.30:307][220]LogTexture:Display: Building textures: T_Wood_Oak_N (BC5)
+[2016.10.27-15.43.30:772][220]LogTexture:Display: Building textures: T_Wood_Walnut_D (AutoDXT)
+[2016.10.27-15.43.32:821][220]LogTexture:Display: Building textures: T_Wood_Walnut_N (BC5)
+[2016.10.27-15.43.33:175][220]LogTexture:Display: Building textures: T_Detail_Rocky_N (BC5)
+[2016.10.27-15.43.33:495][220]LogTexture:Display: Building textures: T_Brick_Hewn_Stone_N (BC5)
+[2016.10.27-15.43.33:970][220]LogTexture:Display: Building textures: T_Brick_Hewn_Stone_M (AutoDXT)
+[2016.10.27-15.43.36:078][220]LogTexture:Display: Building textures: T_Brick_Hewn_Stone_D (AutoDXT)
+[2016.10.27-15.43.37:978][220]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-15.43.38:017][220]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.27-15.43.38:047][220]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.27-15.43.38:117][220]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.638ms to complete.
+[2016.10.27-15.43.38:117][220]LogFileHelpers: Loading map 'LIGHTBULBMAN_ALPHA_FIRST' took 20.362
+[2016.10.27-15.43.44:408][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.43.44:408][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-15.43.44:408][962]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 16:43:44)
+[2016.10.27-15.43.44:408][962]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-15.43.44:415][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006740s)
+[2016.10.27-15.43.44:415][962]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-15.43.44:416][962]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2016.10.27-15.43.44:416][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007713s)
+[2016.10.27-15.43.44:454][962]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-15.43.44:459][962]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-16.43.44
+[2016.10.27-15.43.44:459][962]LogWorld: Bringing up level for play took: 0.004085
+[2016.10.27-15.43.44:460][962]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-15.43.44:460][962]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-15.43.44:460][962]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-15.43.44:460][962]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-15.43.44:460][962]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.458
+[2016.10.27-15.43.44:466][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.46.15:044][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.46.15:073][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.55.40:758][852]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.55.40:758][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-15.55.40:758][852]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 16:55:40)
+[2016.10.27-15.55.40:758][852]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-15.55.40:765][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006738s)
+[2016.10.27-15.55.40:766][852]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-15.55.40:766][852]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2016.10.27-15.55.40:766][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007842s)
+[2016.10.27-15.55.40:804][852]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-15.55.40:809][852]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-16.55.40
+[2016.10.27-15.55.40:809][852]LogWorld: Bringing up level for play took: 0.004025
+[2016.10.27-15.55.40:810][852]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-15.55.40:810][852]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-15.55.40:810][852]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-15.55.40:810][852]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-15.55.40:810][852]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.1
+[2016.10.27-15.55.40:810][852]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.55.55:783][648]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.55.55:812][648]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.55.58:279][941]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.55.58:279][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-15.55.58:279][941]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 16:55:58)
+[2016.10.27-15.55.58:279][941]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-15.55.58:285][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006405s)
+[2016.10.27-15.55.58:286][941]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-15.55.58:286][941]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2016.10.27-15.55.58:286][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007172s)
+[2016.10.27-15.55.58:323][941]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-15.55.58:328][941]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-16.55.58
+[2016.10.27-15.55.58:328][941]LogWorld: Bringing up level for play took: 0.003966
+[2016.10.27-15.55.58:329][941]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-15.55.58:329][941]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-15.55.58:329][941]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-15.55.58:329][941]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-15.55.58:329][941]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.581
+[2016.10.27-15.55.58:329][941]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.56.36:126][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.56.36:167][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.56.38:579][760]Cmd: SELECT NONE
+[2016.10.27-15.58.49:928][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.58.49:928][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-15.58.49:928][405]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 16:58:49)
+[2016.10.27-15.58.49:928][405]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-15.58.49:934][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006556s)
+[2016.10.27-15.58.49:935][405]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-15.58.49:935][405]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2016.10.27-15.58.49:935][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007560s)
+[2016.10.27-15.58.49:970][405]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-15.58.49:975][405]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-16.58.49
+[2016.10.27-15.58.49:975][405]LogWorld: Bringing up level for play took: 0.004256
+[2016.10.27-15.58.49:976][405]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-15.58.49:976][405]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-15.58.49:976][405]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-15.58.49:976][405]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-15.58.49:976][405]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.932
+[2016.10.27-15.58.49:982][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.59.03:060][973]Set new viewmode: Lit_DetailLighting
+[2016.10.27-15.59.04:860][189]Set new viewmode: Lit_DetailLighting
+[2016.10.27-15.59.05:243][235]Set new viewmode: Lit_DetailLighting
+[2016.10.27-15.59.07:046][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-15.59.07:081][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.00.17:897][939]LogActorFactory: Actor Factory created Cube
+[2016.10.27-16.00.19:122][ 78]LogActorFactory: Actor Factory created Cube
+[2016.10.27-16.00.29:437][282]LogTexture:Display: Building textures: SunsetAmbientCubemap (RGBA16F)
+[2016.10.27-16.00.36:573][282]LogTexture:Display: Building textures: SimplygonLogo (AutoDXT)
+[2016.10.27-16.00.42:118][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2016.10.27-16.00.42:347][928]Cmd: DELETE
+[2016.10.27-16.00.42:347][928]Cmd: ACTOR DELETE
+[2016.10.27-16.00.42:348][928]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.27-16.00.42:356][928]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2016.10.27-16.00.54:987][394]Cmd: EDCALLBACK SURFPROPS
+[2016.10.27-16.01.51:853][909]LogSavePackage: Save=948.80ms
+[2016.10.27-16.01.51:853][909]LogSavePackage: Moving 'F:/My Documents/Unreal Projects/filaman/Saved/LIGHTBULBMAN_ALPHA_FIRST_Auto1A24884C74D6254D6E4EC05B8E2134222.tmp' to 'F:/My Documents/Unreal Projects/filaman/Saved/Autosaves/Game/LIGHTBULBMAN_ALPHA_FIRST_Auto1.umap'
+[2016.10.27-16.01.51:861][909]LogSavePackage:Display: Finished SavePackage F:/My Documents/Unreal Projects/filaman/Saved/Autosaves/Game/LIGHTBULBMAN_ALPHA_FIRST_Auto1.umap
+[2016.10.27-16.01.51:871][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LIGHTBULBMAN_ALPHA_FIRST' took 1.037
+[2016.10.27-16.01.51:871][909]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.037
+[2016.10.27-16.02.03:862][298]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2016.10.27-16.02.04:363][298]LogTexture:Display: Building textures: TilePatine_N (BC5)
+[2016.10.27-16.02.04:394][298]LogTexture:Display: Building textures: TilePatine_D (AutoDXT)
+[2016.10.27-16.04.29:566][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LIGHTBULBMAN_ALPHA_FIRST" FILE="F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.10.27-16.04.30:754][122]LogSavePackage: Save=1135.05ms
+[2016.10.27-16.04.30:754][122]LogSavePackage: Moving 'F:/My Documents/Unreal Projects/filaman/Saved/LIGHTBULBMAN_ALPHA_FIRST289C0DE14F5F29F25251AEBABCFCFB8E.tmp' to 'F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap'
+[2016.10.27-16.04.30:762][122]LogSavePackage:Display: Finished SavePackage F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap
+[2016.10.27-16.04.30:789][122]LogFileHelpers: Saving map 'LIGHTBULBMAN_ALPHA_FIRST' took 1.306
+[2016.10.27-16.04.30:822][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.10.27-16.04.31:266][122]LogSavePackage: Save=428.69ms
+[2016.10.27-16.04.31:266][122]LogSavePackage: Moving 'F:/My Documents/Unreal Projects/filaman/Saved/ThirdPersonCharacterE1D4CAC84B1AD2F614D6FF96B4F7E6AF.tmp' to 'F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.10.27-16.04.31:275][122]LogSavePackage:Display: Finished SavePackage F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.10.27-16.04.33:362][349]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.04.33:362][349]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.27-16.04.33:362][349]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2016.10.27-16.04.33:494][349]LogPlayLevel: PlayLevel: Blueprint regeneration took 131 ms (1 blueprints)
+[2016.10.27-16.04.33:494][349]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:04:33)
+[2016.10.27-16.04.33:494][349]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.04.33:500][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006399s)
+[2016.10.27-16.04.33:501][349]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.04.33:502][349]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2016.10.27-16.04.33:502][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007837s)
+[2016.10.27-16.04.33:564][349]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.04.33:569][349]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.04.33
+[2016.10.27-16.04.33:569][349]LogWorld: Bringing up level for play took: 0.003980
+[2016.10.27-16.04.33:570][349]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.04.33:570][349]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.04.33:570][349]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.04.33:570][349]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.04.33:570][349]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST 0.665
+[2016.10.27-16.04.33:570][349]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.04.39:930][ 82]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.04.39:992][ 82]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.05.03:414][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.05.03:414][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-16.05.03:414][863]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:05:03)
+[2016.10.27-16.05.03:414][863]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.05.03:421][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006413s)
+[2016.10.27-16.05.03:421][863]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.05.03:422][863]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2016.10.27-16.05.03:422][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007497s)
+[2016.10.27-16.05.03:483][863]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.05.03:487][863]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.05.03
+[2016.10.27-16.05.03:487][863]LogWorld: Bringing up level for play took: 0.003810
+[2016.10.27-16.05.03:488][863]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.05.03:488][863]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.05.03:488][863]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.05.03:488][863]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.05.03:488][863]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST 0.584
+[2016.10.27-16.05.03:488][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.05.08:144][421]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.05.08:200][421]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.05.13:395][ 31]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.05.13:395][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-16.05.13:396][ 31]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:05:13)
+[2016.10.27-16.05.13:396][ 31]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.05.13:402][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006278s)
+[2016.10.27-16.05.13:402][ 31]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.05.13:403][ 31]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2016.10.27-16.05.13:403][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007376s)
+[2016.10.27-16.05.13:461][ 31]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.05.13:466][ 31]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.05.13
+[2016.10.27-16.05.13:466][ 31]LogWorld: Bringing up level for play took: 0.004144
+[2016.10.27-16.05.13:467][ 31]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.05.13:467][ 31]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.05.13:467][ 31]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.05.13:467][ 31]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.05.13:467][ 31]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST 0.563
+[2016.10.27-16.05.13:467][ 31]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.05.19:465][750]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.05.19:520][750]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.05.47:561][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LIGHTBULBMAN_ALPHA_FIRST" FILE="F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.10.27-16.05.48:621][614]LogSavePackage: Save=1009.42ms
+[2016.10.27-16.05.48:621][614]LogSavePackage: Moving 'F:/My Documents/Unreal Projects/filaman/Saved/LIGHTBULBMAN_ALPHA_FIRSTDB1AE4C742EC8792AA77D393080091CE.tmp' to 'F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap'
+[2016.10.27-16.05.48:630][614]LogSavePackage:Display: Finished SavePackage F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap
+[2016.10.27-16.05.48:659][614]LogFileHelpers: Saving map 'LIGHTBULBMAN_ALPHA_FIRST' took 1.178
+[2016.10.27-16.05.48:695][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.10.27-16.05.49:134][614]LogSavePackage: Save=429.66ms
+[2016.10.27-16.05.49:134][614]LogSavePackage: Moving 'F:/My Documents/Unreal Projects/filaman/Saved/ThirdPersonCharacter324E685A44CD4EBE2B5785BA6761AF26.tmp' to 'F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.10.27-16.05.49:143][614]LogSavePackage:Display: Finished SavePackage F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.10.27-16.05.51:921][865]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.10.27-16.05.56:398][253]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.05.56:398][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-16.05.56:398][253]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:05:56)
+[2016.10.27-16.05.56:398][253]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.05.56:405][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006263s)
+[2016.10.27-16.05.56:405][253]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.05.56:406][253]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2016.10.27-16.05.56:406][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007320s)
+[2016.10.27-16.05.56:469][253]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.05.56:474][253]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.05.56
+[2016.10.27-16.05.56:474][253]LogWorld: Bringing up level for play took: 0.003972
+[2016.10.27-16.05.56:475][253]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.05.56:475][253]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.05.56:475][253]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.05.56:475][253]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.05.56:475][253]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.429
+[2016.10.27-16.05.56:475][253]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.06.05:907][384]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.06.05:964][384]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.06.28:404][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.06.28:404][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-16.06.28:404][594]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:06:28)
+[2016.10.27-16.06.28:404][594]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.06.28:411][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006508s)
+[2016.10.27-16.06.28:411][594]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.06.28:412][594]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2016.10.27-16.06.28:412][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007608s)
+[2016.10.27-16.06.28:479][594]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.06.28:483][594]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.06.28
+[2016.10.27-16.06.28:484][594]LogWorld: Bringing up level for play took: 0.003781
+[2016.10.27-16.06.28:484][594]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.06.28:485][594]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.06.28:485][594]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.06.28:485][594]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.06.28:485][594]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.418
+[2016.10.27-16.06.28:485][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.06.58:965][143]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.06.59:064][143]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.07.00:804][295]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.07.00:804][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-16.07.00:804][295]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:07:00)
+[2016.10.27-16.07.00:804][295]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.07.00:810][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006180s)
+[2016.10.27-16.07.00:811][295]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.07.00:811][295]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2016.10.27-16.07.00:811][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.006972s)
+[2016.10.27-16.07.00:875][295]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.07.00:880][295]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.07.00
+[2016.10.27-16.07.00:881][295]LogWorld: Bringing up level for play took: 0.004945
+[2016.10.27-16.07.00:881][295]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.07.00:881][295]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.07.00:881][295]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.07.00:882][295]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.07.00:882][295]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.021
+[2016.10.27-16.07.00:882][295]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.07.33:788][348]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.07.33:881][348]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.09.27:186][746]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.10.27-16.09.28:502][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.09.28:502][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-16.09.28:502][864]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:09:28)
+[2016.10.27-16.09.28:502][864]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.09.28:509][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006729s)
+[2016.10.27-16.09.28:509][864]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.09.28:510][864]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2016.10.27-16.09.28:510][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007731s)
+[2016.10.27-16.09.28:575][864]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.09.28:579][864]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.09.28
+[2016.10.27-16.09.28:579][864]LogWorld: Bringing up level for play took: 0.003984
+[2016.10.27-16.09.28:580][864]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.09.28:580][864]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.09.28:580][864]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.09.28:580][864]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.09.28:580][864]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.365
+[2016.10.27-16.09.28:580][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.09.35:994][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.09.36:068][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.17.37:412][901]LogSavePackage: Save=968.96ms
+[2016.10.27-16.17.37:412][901]LogSavePackage: Moving 'F:/My Documents/Unreal Projects/filaman/Saved/LIGHTBULBMAN_ALPHA_FIRST_Auto23DF3921746C966E57B572B8C2BAE4DF2.tmp' to 'F:/My Documents/Unreal Projects/filaman/Saved/Autosaves/Game/LIGHTBULBMAN_ALPHA_FIRST_Auto2.umap'
+[2016.10.27-16.17.37:418][901]LogSavePackage:Display: Finished SavePackage F:/My Documents/Unreal Projects/filaman/Saved/Autosaves/Game/LIGHTBULBMAN_ALPHA_FIRST_Auto2.umap
+[2016.10.27-16.17.37:422][901]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LIGHTBULBMAN_ALPHA_FIRST' took 1.068
+[2016.10.27-16.17.37:422][901]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.068
+[2016.10.27-16.17.37:443][901]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2016.10.27-16.17.37:469][901]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2016.10.27-16.17.37:469][901]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2016.10.27-16.17.37:921][901]LogSavePackage: Save=432.26ms
+[2016.10.27-16.17.37:921][901]LogSavePackage: Moving 'F:/My Documents/Unreal Projects/filaman/Saved/ThirdPersonCharacter_Auto28F74F4A14EF9FF025EDC6CAC04439DAD.tmp' to 'F:/My Documents/Unreal Projects/filaman/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset'
+[2016.10.27-16.17.37:925][901]LogSavePackage:Display: Finished SavePackage F:/My Documents/Unreal Projects/filaman/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset
+[2016.10.27-16.17.37:926][901]LogFileHelpers: Auto-saving content packages took 0.485
+[2016.10.27-16.21.36:364][ 85]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.10.27-16.22.01:760][474]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.10.27-16.22.42:655][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.22.42:655][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-16.22.42:655][183]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:22:42)
+[2016.10.27-16.22.42:655][183]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.22.42:662][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006338s)
+[2016.10.27-16.22.42:662][183]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.22.42:663][183]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2016.10.27-16.22.42:663][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007401s)
+[2016.10.27-16.22.42:729][183]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.22.42:733][183]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.22.42
+[2016.10.27-16.22.42:734][183]LogWorld: Bringing up level for play took: 0.003885
+[2016.10.27-16.22.42:734][183]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.22.42:734][183]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.22.42:734][183]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.22.42:734][183]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.22.42:734][183]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.308
+[2016.10.27-16.22.42:735][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.22.55:638][128]Set new viewmode: Lit_DetailLighting
+[2016.10.27-16.22.59:557][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.22.59:634][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.23.02:679][755]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.23.02:679][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-16.23.02:679][755]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:23:02)
+[2016.10.27-16.23.02:679][755]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.23.02:686][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006438s)
+[2016.10.27-16.23.02:686][755]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.23.02:687][755]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2016.10.27-16.23.02:687][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007245s)
+[2016.10.27-16.23.02:751][755]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.23.02:755][755]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.23.02
+[2016.10.27-16.23.02:756][755]LogWorld: Bringing up level for play took: 0.004037
+[2016.10.27-16.23.02:756][755]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.23.02:756][755]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.23.02:756][755]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.23.02:756][755]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.23.02:756][755]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.286
+[2016.10.27-16.23.02:756][755]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.23.09:126][384]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.23.09:198][384]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.23.18:456][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.23.18:456][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-16.23.18:456][969]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:23:18)
+[2016.10.27-16.23.18:456][969]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.23.18:463][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006733s)
+[2016.10.27-16.23.18:463][969]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.23.18:464][969]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2016.10.27-16.23.18:464][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007770s)
+[2016.10.27-16.23.18:522][969]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.23.18:527][969]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.23.18
+[2016.10.27-16.23.18:527][969]LogWorld: Bringing up level for play took: 0.004187
+[2016.10.27-16.23.18:528][969]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.23.18:528][969]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.23.18:528][969]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.23.18:528][969]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.23.18:528][969]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.514
+[2016.10.27-16.23.18:528][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.23.33:081][317]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.23.33:176][317]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.23.46:703][397]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.10.27-16.23.48:480][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.23.48:481][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-16.23.48:481][536]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:23:48)
+[2016.10.27-16.23.48:481][536]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.23.48:488][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006853s)
+[2016.10.27-16.23.48:488][536]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.23.48:488][536]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2016.10.27-16.23.48:488][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.007797s)
+[2016.10.27-16.23.48:547][536]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.23.48:552][536]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.23.48
+[2016.10.27-16.23.48:552][536]LogWorld: Bringing up level for play took: 0.004146
+[2016.10.27-16.23.48:553][536]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.23.48:553][536]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.23.48:553][536]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.23.48:553][536]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.23.48:553][536]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST -0.489
+[2016.10.27-16.23.48:553][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.24.04:390][413]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.24.04:458][413]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.24.05:615][542]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.24.05:616][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-16.24.05:616][542]PIE: New page: PIE session: LIGHTBULBMAN_ALPHA_FIRST (27 Oct 2016 17:24:05)
+[2016.10.27-16.24.05:616][542]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.24.05:622][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006025s)
+[2016.10.27-16.24.05:622][542]LogAIModule: Creating AISystem for world LIGHTBULBMAN_ALPHA_FIRST
+[2016.10.27-16.24.05:622][542]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2016.10.27-16.24.05:622][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST to /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST (0.006740s)
+[2016.10.27-16.24.05:685][542]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.24.05:690][542]LogWorld: Bringing World /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST up for play (max tick rate 0) at 2016.10.27-17.24.05
+[2016.10.27-16.24.05:691][542]LogWorld: Bringing up level for play took: 0.004421
+[2016.10.27-16.24.05:691][542]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.24.05:691][542]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-16.24.05:691][542]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.24.05:691][542]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-16.24.05:691][542]PIE: Info Play in editor start time for /Game/UEDPIE_0_LIGHTBULBMAN_ALPHA_FIRST 0.649
+[2016.10.27-16.24.05:692][542]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.24.27:998][218]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.24.28:068][218]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel' has LevelScriptBlueprint '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST' with GeneratedClass '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST_C' with ClassGeneratedBy '/Game/LIGHTBULBMAN_ALPHA_FIRST.LIGHTBULBMAN_ALPHA_FIRST:PersistentLevel.LIGHTBULBMAN_ALPHA_FIRST'
+[2016.10.27-16.26.11:035][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LIGHTBULBMAN_ALPHA_FIRST" FILE="F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.10.27-16.26.12:110][389]LogSavePackage: Save=1002.87ms
+[2016.10.27-16.26.12:110][389]LogSavePackage: Moving 'F:/My Documents/Unreal Projects/filaman/Saved/LIGHTBULBMAN_ALPHA_FIRST3E5A492B4725D09A3721B19D58E30CD8.tmp' to 'F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap'
+[2016.10.27-16.26.12:118][389]LogSavePackage:Display: Finished SavePackage F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap
+[2016.10.27-16.26.12:149][389]LogFileHelpers: Saving map 'LIGHTBULBMAN_ALPHA_FIRST' took 1.192
+[2016.10.27-16.26.12:183][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.10.27-16.26.12:645][389]LogSavePackage: Save=444.01ms
+[2016.10.27-16.26.12:645][389]LogSavePackage: Moving 'F:/My Documents/Unreal Projects/filaman/Saved/ThirdPersonCharacterDD9F9AB54F99F400B0266687F1E5EFB3.tmp' to 'F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.10.27-16.26.12:653][389]LogSavePackage:Display: Finished SavePackage F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.10.27-16.26.32:361][852]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.10.27-16.27.20:048][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LIGHTBULBMAN_ALPHA_FIRST" FILE="F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.10.27-16.27.21:360][428]LogSavePackage: Save=1290.71ms
+[2016.10.27-16.27.21:360][428]LogSavePackage: Moving 'F:/My Documents/Unreal Projects/filaman/Saved/LIGHTBULBMAN_ALPHA_FIRST5BB2A31743B20126581F12A851FB4D14.tmp' to 'F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap'
+[2016.10.27-16.27.21:368][428]LogSavePackage:Display: Finished SavePackage F:/My Documents/Unreal Projects/filaman/Content/LIGHTBULBMAN_ALPHA_FIRST.umap
+[2016.10.27-16.27.21:402][428]LogFileHelpers: Saving map 'LIGHTBULBMAN_ALPHA_FIRST' took 1.397
+[2016.10.27-16.27.21:459][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.10.27-16.27.21:951][428]LogSavePackage: Save=482.30ms
+[2016.10.27-16.27.21:951][428]LogSavePackage: Moving 'F:/My Documents/Unreal Projects/filaman/Saved/ThirdPersonCharacterBE6747AA4D7F572FB3AB09B696C1E2A1.tmp' to 'F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.10.27-16.27.21:960][428]LogSavePackage:Display: Finished SavePackage F:/My Documents/Unreal Projects/filaman/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.10.27-16.29.56:949][308]Cmd: QUIT_EDITOR
+[2016.10.27-16.29.56:989][308]LogExit: Preparing to exit.
+[2016.10.27-16.29.57:850][308]LogExit: Editor shut down
+[2016.10.27-16.29.57:850][308]LogExit: Transaction tracking system shut down
+[2016.10.27-16.29.57:999][308]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.27-16.29.57:999][308]LogExit: Object subsystem successfully closed.
+[2016.10.27-16.29.58:013][308]LogD3D11RHI: Shutdown
+[2016.10.27-16.29.58:013][308]LogD3D11RHI: CleanupD3DDevice
+[2016.10.27-16.29.58:076][308]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.27-16.29.58:084][308]LogModuleManager: Shutting down and abandoning module BlueprintGraph (239)
+[2016.10.27-16.29.58:084][308]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (238)
+[2016.10.27-16.29.58:084][308]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (237)
+[2016.10.27-16.29.58:084][308]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (236)
+[2016.10.27-16.29.58:085][308]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (235)
+[2016.10.27-16.29.58:085][308]LogModuleManager: Shutting down and abandoning module CrashTracker (234)
+[2016.10.27-16.29.58:085][308]LogModuleManager: Shutting down and abandoning module SceneOutliner (233)
+[2016.10.27-16.29.58:085][308]LogModuleManager: Shutting down and abandoning module WidgetCarousel (232)
+[2016.10.27-16.29.58:085][308]LogModuleManager: Shutting down and abandoning module AddContentDialog (231)
+[2016.10.27-16.29.58:085][308]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.10.27-16.29.58:085][308]LogModuleManager: Shutting down and abandoning module GameplayTags (230)
+[2016.10.27-16.29.58:085][308]LogModuleManager: Shutting down and abandoning module EditorWidgets (229)
+[2016.10.27-16.29.58:085][308]LogModuleManager: Shutting down and abandoning module CollectionManager (228)
+[2016.10.27-16.29.58:085][308]LogModuleManager: Shutting down and abandoning module StatsViewer (227)
+[2016.10.27-16.29.58:085][308]LogModuleManager: Shutting down and abandoning module FoliageEdit (226)
+[2016.10.27-16.29.58:085][308]LogModuleManager: Shutting down and abandoning module LandscapeEditor (225)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (224)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module ActorPickerMode (223)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module GeometryMode (222)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module TextureAlignMode (221)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module BspMode (220)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module HardwareSurvey (219)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (218)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module SequenceRecorder (217)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module AutomationWorker (216)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (215)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module PlacementMode (214)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (213)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (212)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (211)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (210)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (209)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module Media (208)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (207)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (206)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module CharacterAI (205)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module SmartSnapping (204)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module SessionServices (203)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module ViewportSnapping (202)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module ViewportInteraction (201)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module LogVisualizer (200)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (199)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module IntroTutorials (198)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (197)
+[2016.10.27-16.29.58:086][308]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (196)
+[2016.10.27-16.29.58:087][308]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (195)
+[2016.10.27-16.29.58:087][308]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (194)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (193)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (192)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (191)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module NiagaraEditor (190)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module MergeActors (189)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module SizeMap (188)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module TreeMap (187)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module ReferenceViewer (186)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module LocalizationService (185)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (184)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module HardwareTargeting (183)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (182)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module UndoHistory (181)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module UserFeedback (180)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module XmlParser (179)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module Blutility (178)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (177)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (176)
+[2016.10.27-16.29.58:901][308]LogModuleManager: Shutting down and abandoning module InputBindingEditor (175)
+[2016.10.27-16.29.58:902][308]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (174)
+[2016.10.27-16.29.58:902][308]LogModuleManager: Shutting down and abandoning module SettingsEditor (173)
+[2016.10.27-16.29.58:902][308]LogModuleManager: Shutting down and abandoning module ProjectLauncher (172)
+[2016.10.27-16.29.58:902][308]LogModuleManager: Shutting down and abandoning module SessionFrontend (171)
+[2016.10.27-16.29.58:902][308]LogModuleManager: Shutting down and abandoning module ProfilerClient (170)
+[2016.10.27-16.29.58:902][308]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (169)
+[2016.10.27-16.29.58:902][308]LogModuleManager: Shutting down and abandoning module DeviceManager (168)
+[2016.10.27-16.29.58:952][308]LogModuleManager: Shutting down and abandoning module AutomationController (167)
+[2016.10.27-16.29.58:952][308]LogModuleManager: Shutting down and abandoning module AutomationWindow (166)
+[2016.10.27-16.29.58:952][308]LogModuleManager: Shutting down and abandoning module Layers (165)
+[2016.10.27-16.29.58:952][308]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (164)
+[2016.10.27-16.29.58:952][308]LogModuleManager: Shutting down and abandoning module DetailCustomizations (163)
+[2016.10.27-16.29.58:952][308]LogModuleManager: Shutting down and abandoning module PackagesDialog (162)
+[2016.10.27-16.29.58:952][308]LogModuleManager: Shutting down and abandoning module AnimGraph (161)
+[2016.10.27-16.29.58:952][308]LogModuleManager: Shutting down and abandoning module Persona (160)
+[2016.10.27-16.29.58:952][308]LogModuleManager: Shutting down and abandoning module Kismet (159)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module GraphEditor (158)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module ClassViewer (157)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module Toolbox (156)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module ModuleUI (155)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module MovieSceneTools (154)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module OutputLog (153)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module GammaUI (152)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module Documentation (151)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module Niagara (150)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (149)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module AnalyticsET (148)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module PortalServices (147)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module PortalRpc (146)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module MessagingRpc (145)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module GameplayDebugger (144)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module AITestSuite (143)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module AIModule (142)
+[2016.10.27-16.29.58:957][308]LogModuleManager: Shutting down and abandoning module ProfilerService (141)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module TaskGraph (140)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module SubstanceEditor (139)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module SlateRemote (138)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module SteamVRController (137)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module SteamVR (136)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (135)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (134)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module OculusLibrary (133)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module OculusInput (132)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (131)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module CableComponent (130)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (129)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (127)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module HTML5Networking (126)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (125)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module GeometryCache (124)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module AlembicLibrary (123)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module AlembicImporter (122)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module SuperSearch (121)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (120)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (119)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module PluginBrowser (118)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (117)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module EpicSurvey (116)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module DesktopPlatform (115)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (114)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module UObjectPlugin (113)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (112)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (111)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module SourceControl (110)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module GitSourceControl (109)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (108)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (107)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (106)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module MeshPaint (105)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (104)
+[2016.10.27-16.29.59:185][308]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2016.10.27-16.29.59:186][308]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2016.10.27-16.29.59:186][308]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2016.10.27-16.29.59:186][308]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2016.10.27-16.29.59:187][308]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.10.27-16.29.59:187][308]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2016.10.27-16.29.59:187][308]LogModuleManager: Shutting down and abandoning module UdpMessaging (97)
+[2016.10.27-16.29.59:287][308]LogModuleManager: Shutting down and abandoning module TcpMessaging (96)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module SubstanceCore (95)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.10.27-16.29.59:387][308]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.10.27-16.29.59:388][308]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.10.27-16.29.59:388][308]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.10.27-16.29.59:389][308]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.10.27-16.29.59:389][308]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.10.27-16.29.59:389][308]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.10.27-16.29.59:389][308]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.10.27-16.29.59:389][308]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.10.27-16.29.59:389][308]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.10.27-16.29.59:389][308]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.10.27-16.29.59:389][308]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.10.27-16.29.59:389][308]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.10.27-16.29.59:760][308]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.10.27-16.29.59:760][308]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.10.27-16.29.59:760][308]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.10.27-16.29.59:760][308]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.10.27-16.29.59:768][308]LogDerivedDataCache: Shutdown
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.10.27-16.29.59:768][308]LogOnline:Display: Unloading online subsystem: NULL
+[2016.10.27-16.29.59:768][308]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.10.27-16.29.59:768][308]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.10.27-16.29.59:768][308]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4EF87BDF-41BF-0F12-34A8-4FAB09EDD107%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=b0ed96fc4606838ada1362ad5f833317%7C585d96dfea6342ee84a97128b0cc3be9%7Cf2eaebd3-5d71-4529-9362-09330573cf79&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.10.27-16.29.59:775][308]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.10.27-16.29.59:775][308]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.27-16.29.59:775][308]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.27-16.29.59:775][308]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.27-16.29.59:775][308]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.27-16.29.59:777][308]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.27-16.29.59:778][308]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.27-16.29.59:778][308]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.27-16.29.59:778][308]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.27-16.29.59:778][308]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.27-16.29.59:778][308]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.27-16.29.59:778][308]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.27-16.29.59:778][308]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.27-16.29.59:778][308]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.27-16.29.59:778][308]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.27-16.29.59:779][308]LogExit: Exiting.
+[2016.10.27-16.29.59:792][308]Log file closed, 10/27/16 17:29:59
