@@ -60,3 +60,10 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+Intermediate/CachedAssetRegistry.bin
+>>>>>>> 64a5650088189a0fe7c975bfa35d895788e9198a
+>>>>>>> master
