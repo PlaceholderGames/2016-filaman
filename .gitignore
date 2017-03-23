@@ -6,6 +6,7 @@ Thumbs.db
 *.lo
 *.o
 *.obj
+Thumbs.db
 
 # Precompiled Headers
 *.gch
