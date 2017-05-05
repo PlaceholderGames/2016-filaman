@@ -1,11 +1,12 @@
 # Visual Studio 2015 user specific files
 .vs/
-
+Thumbs.db
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+Thumbs.db
 
 # Precompiled Headers
 *.gch
